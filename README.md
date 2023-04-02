@@ -8,6 +8,8 @@
 
 ## Getting Started
 
+### リソースの取得とコンテナ実行
+
 ```bash
 # プロジェクトディレクトリの作成
 mkdir oss-data-platform
@@ -27,6 +29,13 @@ docker compose up -d
 
 # 全てのコンテナのSTATUSがhealthyになるまで暫し待つ。
 docker ps --format 'table {{.Names}}\t{{.Status}}'
+```
+
+#### trouble shoot
+- docker compose up -d実行時に下記のエラーが表示される場合は、Docker DesktopのFileSharing権限を確認してください。
+
+```
+Error response from daemon: invalid mount config for type "bind": bind source path does not exist
 ```
 
 ### 各コンテナイメージのサービス
