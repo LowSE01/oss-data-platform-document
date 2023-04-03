@@ -17,6 +17,7 @@ cd $_
 
 # リソースの取得
 git clone https://github.com/LowSE01/oss-data-platform-airflow.git
+git clone https://github.com/LowSE01/oss-data-platform-dbt.git
 git clone https://github.com/LowSE01/oss-data-platform-docker.git
 git clone https://github.com/LowSE01/oss-data-platform-embulk.git
 
