@@ -55,5 +55,9 @@ Error response from daemon: invalid mount config for type "bind": bind source pa
 - password: postgres
 
 #### [Apache Airflow](http://localhost:8080/)：ジョブフロー管理
-- username: admin 
+- username: admin
 - password: admin
+
+#### dbt Docs：dbtプロジェクトドキュメント
+* [for datawarehouse](http://localhost:8081/)
+* [for datamart](http://localhost:8082/)
